@@ -25,7 +25,7 @@ namespace BritishLibrary.Components.Twitter
         {
             var tweets = new List<KeyValuePair<string,string>>();
 
-            var timelineTweets = service.ListTweetsOnUserTimeline(new ListTweetsOnUserTimelineOptions { ScreenName = "adamsimsy" });
+            var timelineTweets = service.ListTweetsOnUserTimeline(new ListTweetsOnUserTimelineOptions { ScreenName = "geekdotcom" });
 
             timelineTweets.ToList().ForEach(x => tweets.Add(new KeyValuePair<string,string>(x.Author.ScreenName, x.Text)));
 

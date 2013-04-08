@@ -41,7 +41,8 @@
 	<h1>
 		<sc:text field="title" /> - (title field from XSLT)
 	</h1>
-	
+	<sc:text field="body" />
+
 </xsl:template>
 
 </xsl:stylesheet>

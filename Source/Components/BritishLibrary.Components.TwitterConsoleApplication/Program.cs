@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BritishLibrary.Components.Twitter;
 
-namespace ConsoleApplication1
+namespace BritishLibrary.Components.Twitter.ConsoleApplication
 {
     class Program
     {

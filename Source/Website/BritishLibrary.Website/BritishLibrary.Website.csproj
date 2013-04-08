@@ -71,6 +71,7 @@
     <Content Include="default.css" />
     <Content Include="default.js" />
     <Content Include="Global.asax" />
+    <Content Include="layouts\BritishLibrary\Shared\Sublayout_BritishLibrary_Shared_Tweets.ascx" />
     <Content Include="layouts\BritishLibrary\Websites\VoS\Layout_BritishLibrary_VoS_Main.aspx" />
     <Content Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Body.ascx" />
     <Content Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Content.ascx" />
@@ -86,8 +87,16 @@
     <Content Include="xsl\system\WebEdit\Hidden Rendering.xslt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="layouts\BritishLibrary\Shared\Sublayout_BritishLibrary_Shared_Tweets.ascx.cs">
+      <DependentUpon>Sublayout_BritishLibrary_Shared_Tweets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layouts\BritishLibrary\Shared\Sublayout_BritishLibrary_Shared_Tweets.ascx.designer.cs">
+      <DependentUpon>Sublayout_BritishLibrary_Shared_Tweets.ascx</DependentUpon>
+    </Compile>
     <Compile Include="layouts\BritishLibrary\Websites\VoS\Layout_BritishLibrary_VoS_Main.aspx.cs">
       <DependentUpon>Layout_BritishLibrary_VoS_Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Body.ascx.cs">
       <DependentUpon>Sublayout_BritishLibrary_VoS_Body.ascx</DependentUpon>

@@ -7,8 +7,8 @@
     <ProjectGuid>{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>BritishLibrary.Components.Twitter.ConsoleApplication</RootNamespace>
+    <AssemblyName>BritishLibrary.Components.Twitter.ConsoleApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -48,7 +48,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Components\BritishLibrary.Components.Twitter\BritishLibrary.Components.Twitter.csproj">
+    <ProjectReference Include="..\BritishLibrary.Components.Twitter\BritishLibrary.Components.Twitter.csproj">
       <Project>{2472afeb-0db6-48b9-8fb3-75e0c95256b4}</Project>
       <Name>BritishLibrary.Components.Twitter</Name>
     </ProjectReference>

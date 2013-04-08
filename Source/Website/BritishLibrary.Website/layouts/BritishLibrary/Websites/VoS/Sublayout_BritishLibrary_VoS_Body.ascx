@@ -3,3 +3,4 @@
 <h1>
     <sc:Text runat="server" Field="Title" /> - (title field from Sublayout)
 </h1>
+<sc:Text runat="server" Field="Body" />
