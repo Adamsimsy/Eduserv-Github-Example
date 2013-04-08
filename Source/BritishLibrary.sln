@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BritishLibrary.Common.Sitec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BritishLibrary.Components.Twitter", "Components\BritishLibrary.Components.Twitter\BritishLibrary.Components.Twitter.csproj", "{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{59B59F0B-31F5-4251-931F-9A88AD507E4A} = {AA09097E-6560-461B-9C34-D83667FE964C}
 		{2DF5BE4B-81CB-46A0-9E36-EB4204197ECA} = {3ABFB5B5-7C8B-4072-A867-201D23C96B46}
 		{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4} = {76BBB6DB-8472-4B64-9C9B-09093F6D7361}
+		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B} = {76BBB6DB-8472-4B64-9C9B-09093F6D7361}
 	EndGlobalSection
 EndGlobal

@@ -38,7 +38,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Hammock">
+      <HintPath>..\..\packages\Hammock.1.3.1\lib\4.0\Hammock.dll</HintPath>
+    </Reference>
+    <Reference Include="Hammock.ClientProfile">
+      <HintPath>..\..\packages\TweetSharp.2.3.0\lib\4.0\Hammock.ClientProfile.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\TweetSharp.2.3.0\lib\4.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -118,6 +128,16 @@
   <ItemGroup>
     <Folder Include="xsl\WebEdit\System\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\BritishLibrary.Common.Sitecore\BritishLibrary.Common.Sitecore.csproj">
+      <Project>{2df5be4b-81cb-46a0-9e36-eb4204197eca}</Project>
+      <Name>BritishLibrary.Common.Sitecore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BritishLibrary.Components.Twitter\BritishLibrary.Components.Twitter.csproj">
+      <Project>{2472afeb-0db6-48b9-8fb3-75e0c95256b4}</Project>
+      <Name>BritishLibrary.Components.Twitter</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -144,7 +164,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PreBuildEvent>copy $(SolutionDir)Sitecore\Vanilla\bin\*.* $(ProjectDir)bin</PreBuildEvent>
+    <PreBuildEvent>copy $(SolutionDir)..\Dependencies\Sitecore\bin\*.* $(ProjectDir)bin</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
