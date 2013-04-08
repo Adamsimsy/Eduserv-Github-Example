@@ -72,8 +72,8 @@
     <Content Include="default.js" />
     <Content Include="Global.asax" />
     <Content Include="layouts\BritishLibrary\Websites\VoS\Layout_BritishLibrary_VoS_Main.aspx" />
+    <Content Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Body.ascx" />
     <Content Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Content.ascx" />
-    <Content Include="layouts\Layoutasas.aspx" />
     <Content Include="layouts\Sample Inner Sublayout.ascx" />
     <Content Include="layouts\Sample layout.aspx" />
     <Content Include="layouts\Sample Sublayout.ascx" />
@@ -89,8 +89,13 @@
     <Compile Include="layouts\BritishLibrary\Websites\VoS\Layout_BritishLibrary_VoS_Main.aspx.cs">
       <DependentUpon>Layout_BritishLibrary_VoS_Main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Body.ascx.cs">
+      <DependentUpon>Sublayout_BritishLibrary_VoS_Body.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Content.ascx.cs">
       <DependentUpon>Sublayout_BritishLibrary_VoS_Content.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -148,10 +153,6 @@
       <Project>{2472afeb-0db6-48b9-8fb3-75e0c95256b4}</Project>
       <Name>BritishLibrary.Components.Twitter</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="layouts\BritishLibrary\Websites\VoS\Layout_BritishLibrary_VoS_Main.bak" />
-    <Content Include="layouts\BritishLibrary\Websites\VoS\Sublayout_BritishLibrary_VoS_Content.bak" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
