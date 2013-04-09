@@ -33,6 +33,16 @@ namespace BritishLibrary.Components.PublishEndHandler
                 mail.Subject = "Someone published the item " + publisherOptions.RootItem.Paths.FullPath;
                 mail.Body = publisherOptions.RootItem.Fields["body"].Value;
                 SmtpServer.Send(mail);
+
+                string lines = publisherOptions.RootItem.Fields["body"].Value;
+
+                // Write the string to a file.
+                System.IO.StreamWriter file = new System.IO.StreamWriter("D:\\Git\\Eduserv-Github-Example\\Source\\Website\\BritishLibrary.Website\\test.xml");
+                file.WriteLine(lines);
+
+                file.Close();
+
+
             }
             catch (Exception ex)
             {

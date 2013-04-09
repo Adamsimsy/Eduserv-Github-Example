@@ -42,7 +42,12 @@
 		<sc:text field="title" /> - (title field from XSLT)
 	</h1>
 	<sc:text field="body" />
-
+  <xsl:choose>
+    <xsl:when test="sc:pageMode()/pageEditor/edit">
+      <p>DC:Term</p>
+      <sc:text field="term" />
+    </xsl:when>
+  </xsl:choose>
 </xsl:template>
 
 </xsl:stylesheet>

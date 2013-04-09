@@ -2,3 +2,4 @@
 <asp:TextBox ID="tbxInput" runat="server" />
 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
 
+<asp:Literal runat="server" ID="litItems" />
