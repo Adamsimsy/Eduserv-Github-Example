@@ -121,7 +121,7 @@
     <Content Include="App_Config\FieldTypes.config" />
     <Content Include="App_Config\Icons.config" />
     <Content Include="App_Config\Include\DataFolder.config.example" />
-    <Content Include="App_Config\Include\EventHandler.config.example" />
+    <None Include="App_Config\Include\EventHandler.config" />
     <Content Include="App_Config\Include\ForwardingSecurityEvents.config.example" />
     <Content Include="App_Config\Include\ja-JP.config.example" />
     <Content Include="App_Config\Include\LiveMode.config.example" />
@@ -157,6 +157,10 @@
     <ProjectReference Include="..\..\Common\BritishLibrary.Common.Sitecore\BritishLibrary.Common.Sitecore.csproj">
       <Project>{2df5be4b-81cb-46a0-9e36-eb4204197eca}</Project>
       <Name>BritishLibrary.Common.Sitecore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BritishLibrary.Components.PublishEndHandler\BritishLibrary.Components.PublishEndHandler.csproj">
+      <Project>{5eb1e85c-19dc-4b1c-ae2a-cfbf92968112}</Project>
+      <Name>BritishLibrary.Components.PublishEndHandler</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Components\BritishLibrary.Components.Twitter\BritishLibrary.Components.Twitter.csproj">
       <Project>{2472afeb-0db6-48b9-8fb3-75e0c95256b4}</Project>

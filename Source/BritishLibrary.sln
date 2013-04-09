@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BritishLibrary.Components.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BritishLibrary.Components.Twitter.ConsoleApplication", "Components\BritishLibrary.Components.TwitterConsoleApplication\BritishLibrary.Components.Twitter.ConsoleApplication.csproj", "{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BritishLibrary.Components.PublishEndHandler", "Components\BritishLibrary.Components.PublishEndHandler\BritishLibrary.Components.PublishEndHandler.csproj", "{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{2DF5BE4B-81CB-46A0-9E36-EB4204197ECA} = {3ABFB5B5-7C8B-4072-A867-201D23C96B46}
 		{2472AFEB-0DB6-48B9-8FB3-75E0C95256B4} = {76BBB6DB-8472-4B64-9C9B-09093F6D7361}
 		{2FD7AF3F-6332-45B3-81BE-69DEE027B50B} = {76BBB6DB-8472-4B64-9C9B-09093F6D7361}
+		{5EB1E85C-19DC-4B1C-AE2A-CFBF92968112} = {76BBB6DB-8472-4B64-9C9B-09093F6D7361}
 	EndGlobalSection
 EndGlobal
