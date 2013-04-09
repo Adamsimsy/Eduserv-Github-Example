@@ -13,7 +13,8 @@ namespace Layouts.Sublayout_britishlibrary_shared_apiexample {
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Response.Write(tbxInput.Text);
+        var item = Sitecore.Context.Item;
+        tbxInput.Text = item.Name;
     }
   }
 }
